@@ -162,4 +162,4 @@ cython_debug/
 # referential directories
 aux-notes/
 TorchTest/
-src/dat/*
+src/dat/
