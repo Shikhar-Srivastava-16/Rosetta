@@ -11,6 +11,8 @@ It can be downloaded [here](https://code.visualstudio.com/ "VSCode Install Page"
 <br>
     numpy<br>
     detectron-2<br>
+    pandas<br>
+    PyTorch<br>
 <br>
 This list may change. In case you get an error while running the code, it will tell you if certain modules are used but haven't been installed. Additionally, if you are using vscode, it should tell you if there are any such problems. 
 All of them can be installed using pip, python's inbuilt package manager. You can do so with the following command in your terminal, be it Windows' Powershell app, 
@@ -18,8 +20,8 @@ CLI or a UNIX/POSIX-based terminal like those in Linux or macOS.
   <br>
 
 ```shell
-pip install detectron-2
 pip install numpy
+pip install detectron-2
 # and so on
 ```
 
@@ -44,4 +46,4 @@ Click on it to open the app.
 The cloning process will start when you type 'git clone' followed by the URL into the command - line interface of Windows PowerShell. If the application prompts you to enter your login details, you should do so. It should not, however, be needed.
 Once PowerShell has finished cloning the code here, enter 'cd Rosetta' into the prompt. If you are using VSCode, enter the command _code ._ into the terminal to open VSCode. You should now be ready to use the program.
 
-It's a good idea to run _git push_ every once in a while with VSCode. This keeps your clone of the project up to date with the main project. 
+It's a good idea to run _git pull_ every once in a while with VSCode. This keeps your clone of the project up to date with the main project. 
