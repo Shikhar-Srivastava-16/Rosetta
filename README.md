@@ -27,11 +27,18 @@ pip install numpy
 You will also need to have git installed on your computer to make this work. While it may already be installed, it is a good idea to double-check. If you are unsure as to whether it is installed on your PC or know that it isn't,
 you can find easy to follow installation instructions on the Git Project website [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git "Installing Git"). If you already have Git, or any of the aforementioned libraries 
 installed but didn't know and followed this process anyway, there is no reason to be worried. Your OS will be able to deal with this automagically without breaking anything! 
+<br><br>
 
 # Installation
 If you have done everything right, you should be at a GitHub Repostory Page that looks something like this:
 
-img-placeholder
+![An Image of ](resources\git-page-example.png "")
+
+Hit the *<> Code* button: Green background and white text. You should see a popup that looks something like below 
+
+![An Image of ](resources\code-highlight.png "")
+
+You should be able to copy the URL hghlighted. Save this, you will need it later. 
 
 Here's where the steps diverge depending upon your OS. 
 
@@ -42,6 +49,6 @@ Click the _Local_ tab if you aren't already on it and then click _HTTPS_. Copy t
 Click on it to open the app.
 
 The cloning process will start when you type 'git clone' followed by the URL into the command - line interface of Windows PowerShell. If the application prompts you to enter your login details, you should do so. It should not, however, be needed.
-Once PowerShell has finished cloning the code here, enter 'cd Rosetta' into the prompt. If you are using VSCode, enter the command _code ._ into the terminal to open VSCode. You should now be ready to use the program.
+Once PowerShell has finished cloning the code here, enter 'cd Rosetta' into the prompt. If you are using VSCode, type the command _code ._ into the terminal to open VSCode. You should now be ready to use the program.
 
-It's a good idea to run _git push_ every once in a while with VSCode. This keeps your clone of the project up to date with the main project. 
+It's a good idea to run _git pull_ every once in a while with VSCode. This keeps your clone of the project up to date with the main project. 
